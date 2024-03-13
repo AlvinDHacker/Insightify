@@ -6,8 +6,8 @@ import json
 
 from flask import Flask, request, jsonify
 
-language_key = '9dbfb5dbd09940fa87b596dfac51ca40'
-language_endpoint = 'https://faqtest.cognitiveservices.azure.com/'
+language_key = 'Put language key here'
+language_endpoint = 'Put language endpoint here'
 
 def authenticate_client():
     ta_credential = AzureKeyCredential(language_key)
